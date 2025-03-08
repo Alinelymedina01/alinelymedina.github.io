@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Moon+Dance&family=Sigmar&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+*
+/*
+Facultad de Arquitectura 
+Colegio de Diseño Gráfico
+Diseño de Interfaces Gráficas de Usuario 
+medina galeana alinely
+*/ 
+*{
+  padding: 0; 
+    margin: 0;
+    box-sizing: border-box; 
+    }
+header,nav,main,footer{ 
+    width:100%;
+    padding: 30px;
+    background-color: pink; 
+    color:hotpink;
+    }
+header,footer{
+    text-align: center; 
+    font-size: 48px; 
+}
+nav{
+    height: auto;
+    background-color: lightpink;
+    }
+nav ul{
+    text-align: center; 
+}
+nav ul li{
+    width: 10%; 
+    min-width:100px; 
+    height: 50px;
+    background-color: deeppink; 
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom:10px;
+      } 
+ul li{
+      list-style-type: none; 
+            display: inline-block; 
+            text-align: center; 
+            padding: 10px;
+            margin-bottom: 10px;
+            margin-left: 5px;
+            margin-right: 5px; 
+}
+a{
+text-decoration: none; 
+        }
+        a:link{ 
+          color:skyblue; 
+        }
+        a:visited{ 
+         color:deeppink;
+        } 
+        a:active{
+            color:aliceblue; 
+        }
+        a:hover{
+            color:dodgerblue;} 
+  nav ul li:hover{
+           width: 12%;
+            background-color: skyblue; 
+        }
+         nav ul li a:hover{ 
+             color:pink;
+        }
+main{
+    height: auto;
+    background-color: hotpink; 
+        color:aliceblue;
+    padding:10px; 
+}
+footer{
+    font-size: 24px; 
+}
+section{
+    width: 70%; 
+        height:auto;
+    background-color: aliceblue;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto; 
+    padding: 30px;
+    color:#EFB6C8; 
+}
+p{
+    margin-top: 20px; 
+}
+H2{
+    COLOR:pink; 
+}
+img{
+    width: 50%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto; 
+    display: block;
+}
+#img_gif{
+   width: 30%;
+    border-radius:50%; 
+}
+.img_float{
+    width: 80px; 
+    min-width: 10%; 
+}
+#img_izquierda{
+    float: left; 
+        margin: 0px; 
+    margin-right: 20px; 
+}
+#img_derecha{ 
+    float: right; 
+     margin: 0px; 
+}
+#img_ico{
+    width: 64px; 
+    height: auto; 
+    margin-right: 0;
+}
+#fondo{
+    height: 800px;
+    background-image:url("../images/libros.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+video,iframe{ 
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px; 
+  display:block;
+}
+.box_videos{ text-align: center;}
+.box_videos section { 
+    width: 40%;
+    min-width: 360px; 
+    display: inline-block;
+    margin-right: 30px;
+    margin-left:30px;
+    margin-bottom: 30px;
+    margin-top: 30px; 
+    height: 750px; 
+    overflow-y: auto; 
+}
+.box_videos section p{ 
+    text-align: justify;
+}
+form{
+    width: 50%;
+    background-color: lightcoral;
+    padding:50%;
+    margin-left: auto;
+    margin-right: auto;
+   color: pink;
+    margin-top: 30px;
+    border-radius: 10pxx;
+}
+input[type=text], input [type=password]{
+    width: 0%;
+    display: block;
+    padding: 0 px;
+    background-color: lightgoldenrodyellow;
+        color: aliceblue;
+    border: 2px;
+}
+unput[type=text]: focus, input [type=password]: focus{
+    background-color: lightcoral;
+    color: deeppink;
+    font-weight: bolder;
+}
+label{
+    font-weight: bolder;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: inline-block;
+}
+inpout[type=submit]{
+    width: 20%;
+    min-width: 0px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 10px;
+    background-color: mediumblue;
+        color: aliceblue;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+.foto {
+    float: right; /* Coloca la imagen a la derecha */
+    margin-left: 15px; /* Espacio entre la imagen y el texto */
+    margin-bottom: 10px; /* Espacio por debajo de la imagen */
+    width: 150px; /* Tamaño de la imagen (ajustable) */
+    height: auto; /* Mantiene las proporciones de la imagen */
+}
+.redes-sociales {
+    text-align: center; /* Centra los íconos */
+    margin-top: 10px;   /* Espacio superior */
+}
+
+/* Estilo para los íconos sociales */
+.social-icon {
+    width: 40px;  /* Ajusta el tamaño de las imágenes */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin: 0 10px; /* Espacio entre los íconos */
+    transition: transform 0.3s ease; /* Efecto suave al pasar el cursor */
+}
+
+.social-icon:hover {
+    transform: scale(1.1); /* Efecto de aumento al pasar el mouse */
+}
+
+header {
+    display: flex;              /* Usamos flexbox para alinear los elementos horizontalmente */
+    align-items: center;        /* Centra los elementos verticalmente */
+    justify-content: space-between; /* Deja espacio entre el logo y el título */
+    padding: 10px;              /* Espacio interno */
+}
+
+ */
+.logo {
+    width: 50px;                
+    height: auto;              
+    margin-right: 15px;         
+}
+
+/* Estilo para el título */
+header h1 {
+    margin: 0;                  
+    font-size: 2rem;           
+}
+
+/* Estilo para el menú */
+nav ul {
+    list-style-type: none;      
+    padding: 0;                 
+    display: flex;              
+    justify-content: center;    
+}
+
+nav ul li {
+    margin: 0 15px;            
+}
+
+nav ul li a {
+    text-decoration: none;     
+    color: black;               
+    font-size: 1.1rem;         
+}
+
+ */
+.social-icon {
+    width: 30px;                
+    height: auto;              
+    margin: 0 10px;             
+    transition: transform 0.3s ease; 
+}
+
+.social-icon:hover {
+    transform: scale(1.1);      
+}
